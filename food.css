@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+body{
+    background-color:rgb(210, 210, 210);
+}
+header{
+    background-color: black;
+    width: 1920px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.487);
+    background-color: black;
+    position: relative;
+    left: 30px;
+    align-content: space-between;
+    top: -10px;
+}
+.b1{
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.b2{
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 550px;
+}
+.b3{
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1000px;
+}
+.b4{
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.b4 button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+select{
+    background-color: black;
+    border: none;
+    color: white;
+    margin-left: 800px;
+}
+option{
+    background-color: black;
+    color: white;
+}
+.b5{
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 550px;
+}
+.b5 button {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.b6{
+    background-color: white;
+    width: 340px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 1000px;
+}
+.b6 button {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.b7{
+    background-color: white;
+    width: 340px;
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.b7 button {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.b8{
+    background-color: white;
+    width: 340px;
+    height: 320px;
+    margin-top: -320px;
+    margin-left: 550px;
+}
+.b9{
+    background-color: white;
+    width: 340px;
+    height: 320px;
+    margin-top: -320px;
+    margin-left: 1000px;
+}
+.b9 button {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    position: relative;
+}
+.table-content{
+    background-color: #fff;
+    margin-top: 100px;
+    width: 90%;
+    height: 7%;
+    margin-left: 100px;
+    position: relative;
+    overflow-y: scroll;
+}
+h1{
+    margin-left: 500px;
+    position: relative;
+    display: flex;
+    background-color: white;
+}
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    padding: 20px 100px;
+    overflow: scroll;
+    position: relative;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+th, td{
+    padding: 15px;
+}
+.body tr td a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.tablecontainer tr {
+    background-color: white;
+}
+tr{
+    background-color: #fff;
+}
+button{
+    background-color: black;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+.but{
+    margin-top: -860px;
+    margin-left: 200px;
+    position: relative;
+}
+td{
+    padding: 20px 100px;
+}
+input{
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    margin-left: 1100px;
+    position: relative;
+    margin-top: -30px;
+}
+.sui{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    position: relative;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food cycle</title>
+        <link rel="stylesheet" href="food.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h3 style="color: white; background-color: black; margin-top: -10px; margin-left: 40px; position: relative; display: flex;">My  Food  Recipe</h3>
+            <div class="links" style="background-color: black;">
+                <a  href="#home">Home</a>
+                <a style="margin-left: 20px;" href="#food-categories">Food Categories</a>
+                <a style="margin-left: 20px ;" href="#food-list">Food List</a>
+                <select name="" id="">
+                    <option value="">My account</option>
+                    <option value="">View account</option>
+                    <option value="">Log out</option>
+                </select>
+            </div>
+        </header>
+        <div id="home" class="b1">
+            <img style="width: 100%;" src="recipe.jfif" alt="">
+            <h2 style="background-color: white; margin-left: 100px;">Ingredients List</h2>
+                <p style="background-color: white; margin-left: 20px;">This should be detailed and include important information to tell the user how much of each ingredient they</p>
+            <p style="background-color: white; margin-left: 120px; margin-top: -18px; position:relative; display: flex;">should be using.</p>
+         </p>
+        </div>
+        <div class="b2">
+            <img style="width:100%" src="list.jfif" alt="">
+            <h2 style="background-color: white; margin-left:130px; margin-top: -5px;">Food lists</h2>
+            <p style="background-color: white; margin-left:  20px; margin-top: -5px;">
+                This is typically the name of the food
+                the user will be making when they
+                <p style="background-color: white; margin-left: 190px; position:relative; display: flex; margin-top: -18px;">follow the recipe.</p>
+            </p>
+        </div>
+        <div class="b3">
+            <img style="width:100%" height="60%" src="fire.jfif" alt="">
+            <h2 style="background-color: white; margin-left:120px;">Procedures</h2>
+                <P style="margin-left: 50px; background-color: white; margin-top: -5px;">This are the steps the user should</P> 
+               <p style="margin-left: 50px;"> take and are numbered and ordered</p>
+                <p style="background-color: white; margin-left: 60px; position:relative; display: flex;">chronoligically in the way they</p>
+                <p style="background-color: white; margin-left: 100px; position:relative; display: flex;">should be done.</p>
+            </p>
+        </div>
+        <div id="food-categories" class="b4">
+            <img style="width:100%" src="brak.jfif" alt="">
+            <h2 style="background-color: white; margin-left:100px; margin-top: -5px;">Breakfast Recipes</h2>
+            <button>View List</button>
+
+            </div>
+            
+        </div>
+        <div class="b5">
+            <img style="width:100%" src="lunch.jfif" alt="">
+            <h2 style="background-color: white; margin-left:110px; margin-top: 10px;">Lunch Recipes</h2>
+            <button>View List</button>
+            
+        </div>
+        <div class="b6">
+            <img style="width:100%" src="dinner.jfif" alt="">
+            <h2 style="background-color: white; margin-left:110px; margin-top: -5px;">Dinner Recipes</h2>
+            <button>View List</button>
+            
+        </div>
+        <div class="b7">
+            <img style="width:100%" src="appeti.jfif" alt="">
+            <h2 style="background-color: white; margin-left:100px; margin-top: 10px;">Appetizer Recipes</h2>
+            <button>View List</button>
+            
+        </div>
+        <div class="b8">
+            <img style="width:100%" src="ps.jfif" alt="">
+            <h2 style="background-color: white; margin-left:100px; margin-top: -5px;">Desert Recipes</h2>
+            <button onclick="openpopup" class="sui">View List</button>
+            <div class="popup" id="popup">
+
+            </div>
+            <span onclick="closepopup">&times;</span>
+            
+        </div>
+        <div class="b9">
+            <img style="width:100%" src="bg.jfif" alt="">
+            <h2 style="background-color: white; margin-left:100px; margin-top: -5px;">Fast Food Recipes</h2>
+            <button>View List</button>
+            
+        </div>
+        <div id="food-list"  class="table-content">
+            <h1>Food Lists</h1>
+
+            <table style="margin-left: -20px;">
+                <thead class="table-container" style="border-radius: 4px;">
+                    <tr>
+                        <th>Food ID</th>
+                        <th>Recipe Image</th>
+                        <th>Recipe Name</th>
+                        <th>Category</th>
+                        <th colspan="2">Action</th>
+                    </tr>
+                </thead>  
+                <tbody class="body">
+                        <tr>
+                            <td>1</td>
+                            <td><img src="recipe.jfif" alt="" style="width: 50px; display:flex; position: relative;"></td>
+                            <td>French Toast</td>
+                            <td>Breakfast</td>
+                            <td></td>
+                        
+                        </tr>
+            
+                    
+                    <tr>
+                        <td>2</td>
+                        <td><img src="list.jfif" alt="" width="50px"></td>
+                        <td>Croque Madame</td>
+                        <td>Breakfast</td>
+                        <td></td>
+                        
+                    </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><img src="egg.jfif" alt="" width="50px"></td>
+                                <td>Egg Bhurji</td>
+                                <td>Breakfast</td>
+                                <td></td>
+                            
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><img src="pie.jfif" alt="" width="50px"></td>
+                                <td>Egg benedict Toast</td>
+                                <td>Breakfast</td>
+                                <td></td>
+                            
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><img src="pan.jfif" alt="" width="50px"></td>
+                                <td>Cinnamon Pancakes</td>
+                                <td>Breakfast</td>
+                                <td></td>
+                            
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><img src="appeti.jfif" alt="" width="50px"></td>
+                                <td>Katsu Sando</td>
+                                <td>Breakfast</td>
+                                <td></td>
+                            
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><img src="pizza.jfif" alt="" width="50px"></td>
+                                <td>Pizaa</td>
+                                <td>Lunch</td>
+                                <td></td>
+                            
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><img src="dinner.jfif" alt="" width="50px"></td>
+                                <td>kitchen</td>
+                                <td>Lunch</td>
+                                <td></td>
+                            
+                            </tr>
+                </tbody>
+                </thead>
+            </table>
+        </div>
+        <div class="but">
+            <button>Add Recipe</button>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search..." required>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
